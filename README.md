@@ -1,2 +1,3 @@
 # voting-system-using-IC-S
-A 555 timer ic is used to trigger signal which counts as a vote by using ic7490 and is displayed in seven segment display
+It consists of a switch which is used to vote the representative and this switch is taken as the input to the 555 timer  which is connected in monostable mode and generates a trigger pulse.The output of the 555 timer is connected to a decade counter(IC7490) which counts the number of votes of each representative.and finally the output of 7490 is given to seven segment display ic to convert binary numbers to decimal number and a display is connected to show the result.
+      In this way a voting system can be made by using ic's which counts the number of votes and displays the results.
